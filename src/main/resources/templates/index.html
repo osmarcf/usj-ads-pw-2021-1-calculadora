@@ -28,7 +28,7 @@
             <input type="submit" class="btn btn-primary" value="Calcular!" />
         </form>
 
-        <div th:if="${resultado != null}" th:text="'O resultado é: ' + ${resultado}"></div>
+        <div th:if="${resultado != null}" th:text="|O resultado é: ${resultado}|"></div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
